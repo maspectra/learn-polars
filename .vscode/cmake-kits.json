@@ -1,0 +1,11 @@
+[
+  {
+    "name": "Clang 17.0.6 arm64-apple-darwin23.2.0",
+    "compilers": {
+      "C": "/opt/homebrew/opt/llvm/bin/clang",
+      "CXX": "/opt/homebrew/opt/llvm/bin/clang++"
+    },
+    "isTrusted": true,
+    "environmentSetupScript": "${workspaceFolder}/.venv/bin/activate"
+  }
+]
