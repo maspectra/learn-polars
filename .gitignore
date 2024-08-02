@@ -2,3 +2,4 @@ build
 .cache
 .venv
 pyext/*.so
+.ruff_cache

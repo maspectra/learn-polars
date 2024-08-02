@@ -12,7 +12,12 @@ polars = "^1.3.0"
 pandas = "^2.2.2"
 pyarrow = "^17.0.0"
 holoviews = "^1.19.1"
+ipywidgets = "^8.1.3"
 
+[tool.ruff]
+line-length = 88
+indent-width = 4
+extend-include = ["*.ipynb"]
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.29.5"
